@@ -1,0 +1,11 @@
+div.wrapper {
+    display: block;
+    flex-direction: column;
+    widows: 100vw;
+    height: 100vh;
+}
+
+.dix {
+	background-image: url("https://www.transparenttextures.com/patterns/noise-pattern-with-subtle-cross-lines.png");
+	background-repeat: repeat;
+}
