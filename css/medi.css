@@ -1,7 +1,9 @@
 .bearapper {
-    display: block;
+    display: flex;
+    overflow: hidden;
     flex-direction: column;
     widows: 100vw;
+    min-height: 100vh;
 }
 
 /* red */
