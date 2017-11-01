@@ -44,440 +44,491 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.bear1of1 {
-  width: 100%; }
-
-.bear1of2 {
-  width: 50%; }
-
-.bear1of3 {
-  width: 33.33333%; }
-
-.bear1of4 {
-  width: 25%; }
-
-.bear1of5 {
-  width: 20%; }
-
-.bear1of6 {
-  width: 16.66667%; }
-
-.bear1of7 {
-  width: 14.28571%; }
-
-.bear1of8 {
-  width: 12.5%; }
-
-.bear1of9 {
-  width: 11.11111%; }
-
-.bear1of10 {
-  width: 10%; }
-
-.bear1of11 {
-  width: 9.09091%; }
-
-.bear1of12 {
-  width: 8.33333%; }
-
-.bear2of1 {
-  width: 200%; }
-
-.bear2of2 {
-  width: 100%; }
-
-.bear2of3 {
-  width: 66.66667%; }
-
-.bear2of4 {
-  width: 50%; }
-
-.bear2of5 {
-  width: 40%; }
-
-.bear2of6 {
-  width: 33.33333%; }
-
-.bear2of7 {
-  width: 28.57143%; }
-
-.bear2of8 {
-  width: 25%; }
-
-.bear2of9 {
-  width: 22.22222%; }
-
-.bear2of10 {
-  width: 20%; }
-
-.bear2of11 {
-  width: 18.18182%; }
-
-.bear2of12 {
-  width: 16.66667%; }
-
-.bear3of1 {
-  width: 300%; }
-
-.bear3of2 {
-  width: 150%; }
-
-.bear3of3 {
-  width: 100%; }
-
-.bear3of4 {
-  width: 75%; }
-
-.bear3of5 {
-  width: 60%; }
-
-.bear3of6 {
-  width: 50%; }
-
-.bear3of7 {
-  width: 42.85714%; }
-
-.bear3of8 {
-  width: 37.5%; }
-
-.bear3of9 {
-  width: 33.33333%; }
-
-.bear3of10 {
-  width: 30%; }
-
-.bear3of11 {
-  width: 27.27273%; }
-
-.bear3of12 {
-  width: 25%; }
-
-.bear4of1 {
-  width: 400%; }
-
-.bear4of2 {
-  width: 200%; }
-
-.bear4of3 {
-  width: 133.33333%; }
-
-.bear4of4 {
-  width: 100%; }
-
-.bear4of5 {
-  width: 80%; }
-
-.bear4of6 {
-  width: 66.66667%; }
-
-.bear4of7 {
-  width: 57.14286%; }
-
-.bear4of8 {
-  width: 50%; }
-
-.bear4of9 {
-  width: 44.44444%; }
-
-.bear4of10 {
-  width: 40%; }
-
-.bear4of11 {
-  width: 36.36364%; }
-
-.bear4of12 {
-  width: 33.33333%; }
-
-.bear5of1 {
-  width: 500%; }
-
-.bear5of2 {
-  width: 250%; }
-
-.bear5of3 {
-  width: 166.66667%; }
-
-.bear5of4 {
-  width: 125%; }
-
-.bear5of5 {
-  width: 100%; }
-
-.bear5of6 {
-  width: 83.33333%; }
-
-.bear5of7 {
-  width: 71.42857%; }
-
-.bear5of8 {
-  width: 62.5%; }
-
-.bear5of9 {
-  width: 55.55556%; }
-
-.bear5of10 {
-  width: 50%; }
-
-.bear5of11 {
-  width: 45.45455%; }
-
-.bear5of12 {
-  width: 41.66667%; }
-
-.bear6of1 {
-  width: 600%; }
-
-.bear6of2 {
-  width: 300%; }
-
-.bear6of3 {
-  width: 200%; }
-
-.bear6of4 {
-  width: 150%; }
-
-.bear6of5 {
-  width: 120%; }
-
-.bear6of6 {
-  width: 100%; }
-
-.bear6of7 {
-  width: 85.71429%; }
-
-.bear6of8 {
-  width: 75%; }
-
-.bear6of9 {
-  width: 66.66667%; }
-
-.bear6of10 {
-  width: 60%; }
-
-.bear6of11 {
-  width: 54.54545%; }
-
-.bear6of12 {
-  width: 50%; }
-
-.bear7of1 {
-  width: 700%; }
-
-.bear7of2 {
-  width: 350%; }
-
-.bear7of3 {
-  width: 233.33333%; }
-
-.bear7of4 {
-  width: 175%; }
-
-.bear7of5 {
-  width: 140%; }
-
-.bear7of6 {
-  width: 116.66667%; }
-
-.bear7of7 {
-  width: 100%; }
-
-.bear7of8 {
-  width: 87.5%; }
-
-.bear7of9 {
-  width: 77.77778%; }
-
-.bear7of10 {
-  width: 70%; }
-
-.bear7of11 {
-  width: 63.63636%; }
-
-.bear7of12 {
-  width: 58.33333%; }
-
-.bear8of1 {
-  width: 800%; }
-
-.bear8of2 {
-  width: 400%; }
-
-.bear8of3 {
-  width: 266.66667%; }
-
-.bear8of4 {
-  width: 200%; }
-
-.bear8of5 {
-  width: 160%; }
-
-.bear8of6 {
-  width: 133.33333%; }
-
-.bear8of7 {
-  width: 114.28571%; }
-
-.bear8of8 {
-  width: 100%; }
-
-.bear8of9 {
-  width: 88.88889%; }
-
-.bear8of10 {
-  width: 80%; }
-
-.bear8of11 {
-  width: 72.72727%; }
-
-.bear8of12 {
-  width: 66.66667%; }
-
-.bear9of1 {
-  width: 900%; }
-
-.bear9of2 {
-  width: 450%; }
-
-.bear9of3 {
-  width: 300%; }
-
-.bear9of4 {
-  width: 225%; }
-
-.bear9of5 {
-  width: 180%; }
-
-.bear9of6 {
-  width: 150%; }
-
-.bear9of7 {
-  width: 128.57143%; }
-
-.bear9of8 {
-  width: 112.5%; }
-
-.bear9of9 {
-  width: 100%; }
-
-.bear9of10 {
-  width: 90%; }
-
-.bear9of11 {
-  width: 81.81818%; }
-
-.bear9of12 {
-  width: 75%; }
-
-.bear10of1 {
-  width: 1000%; }
-
-.bear10of2 {
-  width: 500%; }
-
-.bear10of3 {
-  width: 333.33333%; }
-
-.bear10of4 {
-  width: 250%; }
-
-.bear10of5 {
-  width: 200%; }
-
-.bear10of6 {
-  width: 166.66667%; }
-
-.bear10of7 {
-  width: 142.85714%; }
-
-.bear10of8 {
-  width: 125%; }
-
-.bear10of9 {
-  width: 111.11111%; }
-
-.bear10of10 {
-  width: 100%; }
-
-.bear10of11 {
-  width: 90.90909%; }
-
-.bear10of12 {
-  width: 83.33333%; }
-
-.bear11of1 {
-  width: 1100%; }
-
-.bear11of2 {
-  width: 550%; }
-
-.bear11of3 {
-  width: 366.66667%; }
-
-.bear11of4 {
-  width: 275%; }
-
-.bear11of5 {
-  width: 220%; }
-
-.bear11of6 {
-  width: 183.33333%; }
-
-.bear11of7 {
-  width: 157.14286%; }
-
-.bear11of8 {
-  width: 137.5%; }
-
-.bear11of9 {
-  width: 122.22222%; }
-
-.bear11of10 {
-  width: 110%; }
-
-.bear11of11 {
-  width: 100%; }
-
-.bear11of12 {
-  width: 91.66667%; }
-
-.bear12of1 {
-  width: 1200%; }
-
-.bear12of2 {
-  width: 600%; }
-
-.bear12of3 {
-  width: 400%; }
-
-.bear12of4 {
-  width: 300%; }
-
-.bear12of5 {
-  width: 240%; }
-
-.bear12of6 {
-  width: 200%; }
-
-.bear12of7 {
-  width: 171.42857%; }
-
-.bear12of8 {
-  width: 150%; }
-
-.bear12of9 {
-  width: 133.33333%; }
-
-.bear12of10 {
-  width: 120%; }
-
-.bear12of11 {
-  width: 109.09091%; }
-
-.bear12of12 {
-  width: 100%; }
+.Beartainer {
+  display: flex; }
+  .Beartainer.Bear1of1 {
+    width: 100%; }
+  .Beartainer.Bear1of2 {
+    width: 50%; }
+  .Beartainer.Bear1of3 {
+    width: 33.33333%; }
+  .Beartainer.Bear1of4 {
+    width: 25%; }
+  .Beartainer.Bear1of5 {
+    width: 20%; }
+  .Beartainer.Bear1of6 {
+    width: 16.66667%; }
+  .Beartainer.Bear1of7 {
+    width: 14.28571%; }
+  .Beartainer.Bear1of8 {
+    width: 12.5%; }
+  .Beartainer.Bear1of9 {
+    width: 11.11111%; }
+  .Beartainer.Bear1of10 {
+    width: 10%; }
+  .Beartainer.Bear1of11 {
+    width: 9.09091%; }
+  .Beartainer.Bear1of12 {
+    width: 8.33333%; }
+  .Beartainer.Bear2of2 {
+    width: 100%; }
+  .Beartainer.Bear2of3 {
+    width: 66.66667%; }
+  .Beartainer.Bear2of4 {
+    width: 50%; }
+  .Beartainer.Bear2of5 {
+    width: 40%; }
+  .Beartainer.Bear2of6 {
+    width: 33.33333%; }
+  .Beartainer.Bear2of7 {
+    width: 28.57143%; }
+  .Beartainer.Bear2of8 {
+    width: 25%; }
+  .Beartainer.Bear2of9 {
+    width: 22.22222%; }
+  .Beartainer.Bear2of10 {
+    width: 20%; }
+  .Beartainer.Bear2of11 {
+    width: 18.18182%; }
+  .Beartainer.Bear2of12 {
+    width: 16.66667%; }
+  .Beartainer.Bear3of3 {
+    width: 100%; }
+  .Beartainer.Bear3of4 {
+    width: 75%; }
+  .Beartainer.Bear3of5 {
+    width: 60%; }
+  .Beartainer.Bear3of6 {
+    width: 50%; }
+  .Beartainer.Bear3of7 {
+    width: 42.85714%; }
+  .Beartainer.Bear3of8 {
+    width: 37.5%; }
+  .Beartainer.Bear3of9 {
+    width: 33.33333%; }
+  .Beartainer.Bear3of10 {
+    width: 30%; }
+  .Beartainer.Bear3of11 {
+    width: 27.27273%; }
+  .Beartainer.Bear3of12 {
+    width: 25%; }
+  .Beartainer.Bear4of4 {
+    width: 100%; }
+  .Beartainer.Bear4of5 {
+    width: 80%; }
+  .Beartainer.Bear4of6 {
+    width: 66.66667%; }
+  .Beartainer.Bear4of7 {
+    width: 57.14286%; }
+  .Beartainer.Bear4of8 {
+    width: 50%; }
+  .Beartainer.Bear4of9 {
+    width: 44.44444%; }
+  .Beartainer.Bear4of10 {
+    width: 40%; }
+  .Beartainer.Bear4of11 {
+    width: 36.36364%; }
+  .Beartainer.Bear4of12 {
+    width: 33.33333%; }
+  .Beartainer.Bear5of5 {
+    width: 100%; }
+  .Beartainer.Bear5of6 {
+    width: 83.33333%; }
+  .Beartainer.Bear5of7 {
+    width: 71.42857%; }
+  .Beartainer.Bear5of8 {
+    width: 62.5%; }
+  .Beartainer.Bear5of9 {
+    width: 55.55556%; }
+  .Beartainer.Bear5of10 {
+    width: 50%; }
+  .Beartainer.Bear5of11 {
+    width: 45.45455%; }
+  .Beartainer.Bear5of12 {
+    width: 41.66667%; }
+  .Beartainer.Bear6of6 {
+    width: 100%; }
+  .Beartainer.Bear6of7 {
+    width: 85.71429%; }
+  .Beartainer.Bear6of8 {
+    width: 75%; }
+  .Beartainer.Bear6of9 {
+    width: 66.66667%; }
+  .Beartainer.Bear6of10 {
+    width: 60%; }
+  .Beartainer.Bear6of11 {
+    width: 54.54545%; }
+  .Beartainer.Bear6of12 {
+    width: 50%; }
+  .Beartainer.Bear7of7 {
+    width: 100%; }
+  .Beartainer.Bear7of8 {
+    width: 87.5%; }
+  .Beartainer.Bear7of9 {
+    width: 77.77778%; }
+  .Beartainer.Bear7of10 {
+    width: 70%; }
+  .Beartainer.Bear7of11 {
+    width: 63.63636%; }
+  .Beartainer.Bear7of12 {
+    width: 58.33333%; }
+  .Beartainer.Bear8of8 {
+    width: 100%; }
+  .Beartainer.Bear8of9 {
+    width: 88.88889%; }
+  .Beartainer.Bear8of10 {
+    width: 80%; }
+  .Beartainer.Bear8of11 {
+    width: 72.72727%; }
+  .Beartainer.Bear8of12 {
+    width: 66.66667%; }
+  .Beartainer.Bear9of9 {
+    width: 100%; }
+  .Beartainer.Bear9of10 {
+    width: 90%; }
+  .Beartainer.Bear9of11 {
+    width: 81.81818%; }
+  .Beartainer.Bear9of12 {
+    width: 75%; }
+  .Beartainer.Bear10of10 {
+    width: 100%; }
+  .Beartainer.Bear10of11 {
+    width: 90.90909%; }
+  .Beartainer.Bear10of12 {
+    width: 83.33333%; }
+  .Beartainer.Bear11of11 {
+    width: 100%; }
+  .Beartainer.Bear11of12 {
+    width: 91.66667%; }
+  .Beartainer.Bear12of12 {
+    width: 100%; }
+  .Beartainer.Col {
+    flex-direction: column; }
+    .Beartainer.Col.KeepCe {
+      align-items: center; }
+    .Beartainer.Col.KeepLe {
+      align-items: start; }
+    .Beartainer.Col.KeepRi {
+      align-items: end; }
+    .Beartainer.Col.KeepBe {
+      align-items: space-between; }
+    .Beartainer.Col.KeepAr {
+      align-items: space-around; }
+    .Beartainer.Col.KeepMid {
+      justify-content: center; }
+    .Beartainer.Col.KeepTop {
+      justify-content: start; }
+    .Beartainer.Col.KeepBot {
+      justify-content: end; }
+    .Beartainer.Col.KeepBet {
+      justify-content: space-between; }
+    .Beartainer.Col.KeepAro {
+      justify-content: space-around; }
+  .Beartainer.Row {
+    flex-direction: row; }
+    .Beartainer.Row.KeepCe {
+      justify-content: center; }
+    .Beartainer.Row.KeepLe {
+      justify-content: start; }
+    .Beartainer.Row.KeepRi {
+      justify-content: end; }
+    .Beartainer.Row.KeepBe {
+      justify-content: space-between; }
+    .Beartainer.Row.KeepAr {
+      justify-content: space-around; }
+    .Beartainer.Row.KeepMid {
+      align-items: center; }
+    .Beartainer.Row.KeepTop {
+      align-items: start; }
+    .Beartainer.Row.KeepBot {
+      align-items: end; }
+    .Beartainer.Row.KeepBet {
+      align-items: space-between; }
+    .Beartainer.Row.KeepAro {
+      align-items: space-around; }
+  .Beartainer.KeepConteMid {
+    align-content: center; }
+  .Beartainer.KeepConteTop {
+    align-content: start; }
+  .Beartainer.KeepConteBot {
+    align-content: end; }
+  .Beartainer.KeepConteBet {
+    align-content: space-between; }
+  .Beartainer.KeepConteAro {
+    align-content: space-around; }
+
+@font-face {
+  font-family: "Regular";
+  src: url("../../fonts/Regular.eot");
+  src: url("../../fonts/Regular.woff2") format("woff2"), url("../../fonts/Regular.woff") format("woff"), url("../../fonts/Regular.ttf") format("truetype"), url("../../fonts/Regular.otf") format("opentype"); }
+@font-face {
+  font-family: "Light";
+  src: url("../../fonts/Light.eot");
+  src: url("../../fonts/Light.woff2") format("woff2"), url("../../fonts/Light.woff") format("woff"), url("../../fonts/Light.ttf") format("truetype"), url("../../fonts/Light.otf") format("opentype"); }
+@font-face {
+  font-family: "Bold";
+  src: url("../../fonts/Bold.eot");
+  src: url("../../fonts/Bold.woff2") format("woff2"), url("../../fonts/Bold.woff") format("woff"), url("../../fonts/Bold.ttf") format("truetype"), url("../../fonts/Bold.otf") format("opentype"); }
+@font-face {
+  font-family: "Italic";
+  src: url("../../fonts/Italic.eot");
+  src: url("../../fonts/Italic.woff2") format("woff2"), url("../../fonts/Italic.woff") format("woff"), url("../../fonts/Italic.ttf") format("truetype"), url("../../fonts/Italic.otf") format("opentype"); }
+@font-face {
+  font-family: "Serif";
+  src: url("../../fonts/Serif.eot");
+  src: url("../../fonts/Serif.woff2") format("woff2"), url("../../fonts/Serif.woff") format("woff"), url("../../fonts/Serif.ttf") format("truetype"), url("../../fonts/Serif.otf") format("opentype"); }
+@font-face {
+  font-family: "SerifLight";
+  src: url("../../fonts/SerifLight.eot");
+  src: url("../../fonts/SerifLight.woff2") format("woff2"), url("../../fonts/SerifLight.woff") format("woff"), url("../../fonts/SerifLight.ttf") format("truetype"), url("../../fonts/SerifLight.otf") format("opentype"); }
+@font-face {
+  font-family: "SerifBold";
+  src: url("../../fonts/SerifBold.eot");
+  src: url("../../fonts/SerifBold.woff2") format("woff2"), url("../../fonts/SerifBold.woff") format("woff"), url("../../fonts/SerifBold.ttf") format("truetype"), url("../../fonts/SerifBold.otf") format("opentype"); }
+@font-face {
+  font-family: "SerifItalic";
+  src: url("../../fonts/SerifItalic.eot");
+  src: url("../../fonts/SerifItalic.woff2") format("woff2"), url("../../fonts/SerifItalic.woff") format("woff"), url("../../fonts/SerifItalic.ttf") format("truetype"), url("../../fonts/SerifItalic.otf") format("opentype"); }
+@font-face {
+  font-family: "Sans";
+  src: url("../../fonts/Sans.eot");
+  src: url("../../fonts/Sans.woff2") format("woff2"), url("../../fonts/Sans.woff") format("woff"), url("../../fonts/Sans.ttf") format("truetype"), url("../../fonts/Sans.otf") format("opentype"); }
+@font-face {
+  font-family: "SansLight";
+  src: url("../../fonts/SansLight.eot");
+  src: url("../../fonts/SansLight.woff2") format("woff2"), url("../../fonts/SansLight.woff") format("woff"), url("../../fonts/SansLight.ttf") format("truetype"), url("../../fonts/SansLight.otf") format("opentype"); }
+@font-face {
+  font-family: "SansBold";
+  src: url("../../fonts/SansBold.eot");
+  src: url("../../fonts/SansBold.woff2") format("woff2"), url("../../fonts/SansBold.woff") format("woff"), url("../../fonts/SansBold.ttf") format("truetype"), url("../../fonts/SansBold.otf") format("opentype"); }
+@font-face {
+  font-family: "SansItalic";
+  src: url("../../fonts/SansItalic.eot");
+  src: url("../../fonts/SansItalic.woff2") format("woff2"), url("../../fonts/SansItalic.woff") format("woff"), url("../../fonts/SansItalic.ttf") format("truetype"), url("../../fonts/SansItalic.otf") format("opentype"); }
+@font-face {
+  font-family: "Header";
+  src: url("../../fonts/Header.eot");
+  src: url("../../fonts/Header.woff2") format("woff2"), url("../../fonts/Header.woff") format("woff"), url("../../fonts/Header.ttf") format("truetype"), url("../../fonts/Header.otf") format("opentype"); }
+@font-face {
+  font-family: "HeaderBold";
+  src: url("../../fonts/HeaderBold.eot");
+  src: url("../../fonts/HeaderBold.woff2") format("woff2"), url("../../fonts/HeaderBold.woff") format("woff"), url("../../fonts/HeaderBold.ttf") format("truetype"), url("../../fonts/HeaderBold.otf") format("opentype"); }
+@font-face {
+  font-family: "HeaderLight";
+  src: url("../../fonts/HeaderLight.eot");
+  src: url("../../fonts/HeaderLight.woff2") format("woff2"), url("../../fonts/HeaderLight.woff") format("woff"), url("../../fonts/HeaderLight.ttf") format("truetype"), url("../../fonts/HeaderLight.otf") format("opentype"); }
+@font-face {
+  font-family: "HeaderItalic";
+  src: url("../../fonts/HeaderItalic.eot");
+  src: url("../../fonts/HeaderItalic.woff2") format("woff2"), url("../../fonts/HeaderItalic.woff") format("woff"), url("../../fonts/HeaderItalic.ttf") format("truetype"), url("../../fonts/HeaderItalic.otf") format("opentype"); }
+.BearText {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Regular"; }
+  .BearText.Size0 {
+    font-size: 0em; }
+  .BearText.Size1 {
+    font-size: 0.1em; }
+  .BearText.Size2 {
+    font-size: 0.2em; }
+  .BearText.Size3 {
+    font-size: 0.3em; }
+  .BearText.Size4 {
+    font-size: 0.4em; }
+  .BearText.Size5 {
+    font-size: 0.5em; }
+  .BearText.Size6 {
+    font-size: 0.6em; }
+  .BearText.Size7 {
+    font-size: 0.7em; }
+  .BearText.Size8 {
+    font-size: 0.8em; }
+  .BearText.Size9 {
+    font-size: 0.9em; }
+  .BearText.Size10 {
+    font-size: 1em; }
+  .BearText.Size11 {
+    font-size: 1.1em; }
+  .BearText.Size12 {
+    font-size: 1.2em; }
+  .BearText.Size13 {
+    font-size: 1.3em; }
+  .BearText.Size14 {
+    font-size: 1.4em; }
+  .BearText.Size15 {
+    font-size: 1.5em; }
+  .BearText.Size16 {
+    font-size: 1.6em; }
+  .BearText.Size17 {
+    font-size: 1.7em; }
+  .BearText.Size18 {
+    font-size: 1.8em; }
+  .BearText.Size19 {
+    font-size: 1.9em; }
+  .BearText.Size20 {
+    font-size: 2em; }
+  .BearText.Size21 {
+    font-size: 2.1em; }
+  .BearText.Size22 {
+    font-size: 2.2em; }
+  .BearText.Size23 {
+    font-size: 2.3em; }
+  .BearText.Size24 {
+    font-size: 2.4em; }
+  .BearText.Size25 {
+    font-size: 2.5em; }
+  .BearText.Size26 {
+    font-size: 2.6em; }
+  .BearText.Size27 {
+    font-size: 2.7em; }
+  .BearText.Size28 {
+    font-size: 2.8em; }
+  .BearText.Size29 {
+    font-size: 2.9em; }
+  .BearText.Size30 {
+    font-size: 3em; }
+  .BearText.Size31 {
+    font-size: 3.1em; }
+  .BearText.Size32 {
+    font-size: 3.2em; }
+  .BearText.Size33 {
+    font-size: 3.3em; }
+  .BearText.Size34 {
+    font-size: 3.4em; }
+  .BearText.Size35 {
+    font-size: 3.5em; }
+  .BearText.Size36 {
+    font-size: 3.6em; }
+  .BearText.Size37 {
+    font-size: 3.7em; }
+  .BearText.Size38 {
+    font-size: 3.8em; }
+  .BearText.Size39 {
+    font-size: 3.9em; }
+  .BearText.Size40 {
+    font-size: 4em; }
+  .BearText.Size41 {
+    font-size: 4.1em; }
+  .BearText.Size42 {
+    font-size: 4.2em; }
+  .BearText.Size43 {
+    font-size: 4.3em; }
+  .BearText.Size44 {
+    font-size: 4.4em; }
+  .BearText.Size45 {
+    font-size: 4.5em; }
+  .BearText.Size46 {
+    font-size: 4.6em; }
+  .BearText.Size47 {
+    font-size: 4.7em; }
+  .BearText.Size48 {
+    font-size: 4.8em; }
+  .BearText.Size49 {
+    font-size: 4.9em; }
+  .BearText.Size50 {
+    font-size: 5em; }
+  .BearText.Size51 {
+    font-size: 5.1em; }
+  .BearText.Size52 {
+    font-size: 5.2em; }
+  .BearText.Size53 {
+    font-size: 5.3em; }
+  .BearText.Size54 {
+    font-size: 5.4em; }
+  .BearText.Size55 {
+    font-size: 5.5em; }
+  .BearText.Size56 {
+    font-size: 5.6em; }
+  .BearText.Size57 {
+    font-size: 5.7em; }
+  .BearText.Size58 {
+    font-size: 5.8em; }
+  .BearText.Size59 {
+    font-size: 5.9em; }
+  .BearText.Size60 {
+    font-size: 6em; }
+  .BearText.Size61 {
+    font-size: 6.1em; }
+  .BearText.Size62 {
+    font-size: 6.2em; }
+  .BearText.Size63 {
+    font-size: 6.3em; }
+  .BearText.Size64 {
+    font-size: 6.4em; }
+  .BearText.Size65 {
+    font-size: 6.5em; }
+  .BearText.Size66 {
+    font-size: 6.6em; }
+  .BearText.Size67 {
+    font-size: 6.7em; }
+  .BearText.Size68 {
+    font-size: 6.8em; }
+  .BearText.Size69 {
+    font-size: 6.9em; }
+  .BearText.Size70 {
+    font-size: 7em; }
+  .BearText.Size71 {
+    font-size: 7.1em; }
+  .BearText.Size72 {
+    font-size: 7.2em; }
+  .BearText.Size73 {
+    font-size: 7.3em; }
+  .BearText.Size74 {
+    font-size: 7.4em; }
+  .BearText.Size75 {
+    font-size: 7.5em; }
+  .BearText.Size76 {
+    font-size: 7.6em; }
+  .BearText.Size77 {
+    font-size: 7.7em; }
+  .BearText.Size78 {
+    font-size: 7.8em; }
+  .BearText.Size79 {
+    font-size: 7.9em; }
+  .BearText.Size80 {
+    font-size: 8em; }
+  .BearText.Size81 {
+    font-size: 8.1em; }
+  .BearText.Size82 {
+    font-size: 8.2em; }
+  .BearText.Size83 {
+    font-size: 8.3em; }
+  .BearText.Size84 {
+    font-size: 8.4em; }
+  .BearText.Size85 {
+    font-size: 8.5em; }
+  .BearText.Size86 {
+    font-size: 8.6em; }
+  .BearText.Size87 {
+    font-size: 8.7em; }
+  .BearText.Size88 {
+    font-size: 8.8em; }
+  .BearText.Size89 {
+    font-size: 8.9em; }
+  .BearText.Size90 {
+    font-size: 9em; }
+  .BearText.Size91 {
+    font-size: 9.1em; }
+  .BearText.Size92 {
+    font-size: 9.2em; }
+  .BearText.Size93 {
+    font-size: 9.3em; }
+  .BearText.Size94 {
+    font-size: 9.4em; }
+  .BearText.Size95 {
+    font-size: 9.5em; }
+  .BearText.Size96 {
+    font-size: 9.6em; }
+  .BearText.Size97 {
+    font-size: 9.7em; }
+  .BearText.Size98 {
+    font-size: 9.8em; }
+  .BearText.Size99 {
+    font-size: 9.9em; }
+  .BearText.Size100 {
+    font-size: 10em; }
 
 .debug {
-  background-color: #ff0000;
-  height: 30px; }
+  background-color: #ff0050;
+  min-height: 50px; }
 
 /*# sourceMappingURL=base.css.map */

@@ -1,0 +1,12 @@
+// Kiselev Nikolay 2017
+
+@import "font.sass"
+
+$main_size: 0.1em
+
+.BearText
+	-webkit-font-smoothing: antialiased
+	font-family: "Regular"
+	@for $i from 0 through 100
+		&.Size#{$i}
+			font-size: $i * $main_size

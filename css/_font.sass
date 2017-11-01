@@ -1,0 +1,13 @@
+// Kiselev NIkolay 2017
+
+=fontsource($family)
+	src: url("../../fonts/" + $family + ".eot")
+	src: url("../../fonts/" + $family + ".woff2") format("woff2"), url("../../fonts/" + $family + ".woff") format("woff"), url("../../fonts/" + $family + ".ttf") format("truetype"), url("../../fonts/" + $family + ".otf") format("opentype")
+
+
+$font-list: "Regular", "Light", "Bold", "Italic", "Serif", "SerifLight", "SerifBold", "SerifItalic", "Sans", "SansLight", "SansBold", "SansItalic", "Header", "HeaderBold", "HeaderLight", "HeaderItalic"
+
+@each $current in $font-list
+	@font-face
+		font-family: $current
+		+fontsource($current)
