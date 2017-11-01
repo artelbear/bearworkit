@@ -7,6 +7,23 @@ $main_size: 0.1em
 .BearText
 	-webkit-font-smoothing: antialiased
 	font-family: "Regular"
-	@for $i from 0 through 100
+	@for $i from 0 through 228
 		&.Size#{$i}
 			font-size: $i * $main_size
+	
+	$font-list: "Regular", "Light", "Bold", "Italic", "Serif", "SerifLight", "SerifBold", "SerifItalic", "Sans", "SansLight", "SansBold", "SansItalic", "Header", "HeaderBold", "HeaderLight", "HeaderItalic"
+	@each $current in $font-list
+		&.#{$current}
+			font-family: $current
+	
+	&.Justify
+		text-align: justify
+
+	&.Center
+		text-align: center
+
+	&.Start
+		text-align: left
+
+	&.End
+		text-align: right

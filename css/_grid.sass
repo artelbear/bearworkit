@@ -1,5 +1,10 @@
 // Kiselev Nikolay 2017
 
+.Bearapper
+	display: flex
+	flex-direction: row
+	flex-wrap: wrap
+
 .Beartainer
 	display: flex
 	@for $i from 1 through 12
@@ -62,3 +67,26 @@
 		align-content: space-between
 	&.KeepConteAro
 		align-content: space-around
+
+	&.Wrap
+		flex-wrap: wrap
+
+.Bearitem
+	&.PressXS
+		flex-shrink: 0.25
+	&.PressS
+		flex-shrink: 0.5
+	&.PressM
+		flex-shrink: 1
+	&.PressL
+		flex-shrink: 1.25
+	&.PressXL
+		flex-shrink: 1.5
+	&.PressXXL
+		flex-shrink: 2
+
+	@for $i from 1 through 12
+		@for $j from 1 through 12
+			&.FatBear#{$i}of#{$j}
+				@if $i <= $j
+					flex-basis: $i / $j * 100%
