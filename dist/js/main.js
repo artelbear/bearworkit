@@ -1,0 +1,1 @@
+$("#texter").css('color', 'red');

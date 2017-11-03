@@ -1,3 +1,5 @@
+const webpack = require('webpack');
+
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const path = require('path');
@@ -5,7 +7,7 @@ const path = require('path');
 module.exports = {
 	entry: './src/index.js',
 	output: {
-		path: path.resolve(__dirname, 'dist'),
+		path: path.resolve(__dirname, 'dist/bearworkit'),
 		filename: 'bundle.js'
 	},
 	module: {
@@ -20,6 +22,10 @@ module.exports = {
 		]
 	},
 	plugins: [
-		new ExtractTextPlugin('style.css')
+		new ExtractTextPlugin('style.css'),
+		// new webpack.ProvidePlugin({
+		// 	$: 'jquery',
+		// 	jQuery: 'jquery'
+		// })
 	]
 };
