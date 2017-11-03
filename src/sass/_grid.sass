@@ -1,0 +1,100 @@
+// Kiselev Nikolay 2017
+
+@for $i from 1 through 12
+	@for $j from 1 through 12
+		.Bear#{$i}of#{$j}
+			@if $i <= $j
+				width: $i / $j * 100%
+
+.Bearapper
+	display: flex
+	flex-direction: row
+	flex-wrap: wrap
+
+.Beartainer
+	display: flex
+	
+	&.Col
+		flex-direction: column
+		&.KeepCe
+			align-items: center
+		&.KeepLe
+			align-items: flex-start
+		&.KeepRi
+			align-items: flex-end
+		&.KeepBe
+			align-items: space-between
+		&.KeepAr
+			align-items: space-around
+		&.KeepSt
+			align-items: stretch
+		&.KeepMid
+			justify-content: center
+		&.KeepTop
+			justify-content: start
+		&.KeepBot
+			justify-content: end
+		&.KeepBet
+			justify-content: space-between
+		&.KeepAro
+			justify-content: space-around
+	&.Row
+		flex-direction: row
+		&.KeepCe
+			justify-content: center
+		&.KeepLe
+			justify-content: start
+		&.KeepRi
+			justify-content: end
+		&.KeepBe
+			justify-content: space-between
+		&.KeepAr
+			justify-content: space-around
+		&.KeepMid
+			align-items: center
+		&.KeepTop
+			align-items: flex-start
+		&.KeepBot
+			align-items: flex-end
+		&.KeepBet
+			align-items: space-between
+		&.KeepAro
+			align-items: space-around
+		&.KeepStr
+			align-items: stretch
+
+	&.KeepConteMid
+		align-content: center
+	&.KeepConteTop
+		align-content: flex-start
+	&.KeepConteBot
+		align-content: flex-end
+	&.KeepConteBet
+		align-content: space-between
+	&.KeepConteAro
+		align-content: space-around
+	&.KeepConteStr
+		align-content: stretch
+
+	&.Wrap
+		flex-wrap: wrap
+
+.Bearitem
+	&.PressXS
+		flex-shrink: 0.25
+	&.PressS
+		flex-shrink: 0.5
+	&.PressM
+		flex-shrink: 1
+	&.PressL
+		flex-shrink: 1.25
+	&.PressXL
+		flex-shrink: 1.5
+	&.PressXXL
+		flex-shrink: 2
+
+	@for $i from 1 through 12
+		@for $j from 1 through 12
+			&.FatBear#{$i}of#{$j}
+				@if $i <= $j
+					flex-basis: $i / $j * 100%
