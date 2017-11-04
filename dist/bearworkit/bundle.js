@@ -72,7 +72,23 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sass_base_sass__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sass_base_sass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__sass_base_sass__);
 
+
 window.$ = window.jQuery = __webpack_require__(2);
+
+$(document).ready(function() {
+	if ($("#BearLoad").length) {
+		// MEOW!!
+	} else {
+		$(".Bearapper").before('<div id="BearLoad"></div>');
+	};
+	$("#MagicImage").on('load', function() {
+		$("#MagicImageBox").css("height", ($("#MagicImage").height() - 5) + "px");
+		$("#BearLoad").animate({height: "0px"}, 2000, function(){$("#BearLoad").remove()});
+		$(window).scroll(function() {
+			$("#MagicImage").css("top", (($(window).scrollTop() / 4) - 5) + "px");
+		});
+	});
+});
 
 
 /***/ }),

@@ -11,9 +11,13 @@
 	flex-direction: row
 	flex-wrap: wrap
 
+.BearSticky
+	position: sticky
+	top: 0
+
 .Beartainer
 	display: flex
-	
+
 	&.Col
 		flex-direction: column
 		&.KeepCe
@@ -22,10 +26,6 @@
 			align-items: flex-start
 		&.KeepRi
 			align-items: flex-end
-		&.KeepBe
-			align-items: space-between
-		&.KeepAr
-			align-items: space-around
 		&.KeepSt
 			align-items: stretch
 		&.KeepMid
@@ -56,10 +56,6 @@
 			align-items: flex-start
 		&.KeepBot
 			align-items: flex-end
-		&.KeepBet
-			align-items: space-between
-		&.KeepAro
-			align-items: space-around
 		&.KeepStr
 			align-items: stretch
 
