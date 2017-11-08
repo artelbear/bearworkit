@@ -1,4 +1,0 @@
-{
-    "cmd": ["npm", "run", "build"],
-    "working_dir": "$project_path",
-}

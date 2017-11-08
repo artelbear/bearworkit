@@ -15,56 +15,56 @@
 		<meta name="twitter:description" content="Tenodaten community">
 		<meta name="twitter:image" content="http://artelbear.space/favicon.png">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-		<link rel="stylesheet" href="bearworkit/style.css?version=1.1.1.2">
-		<link rel="stylesheet" href="css/style.css?version=1.1.1.2">
-		<script src="bearworkit/bundle.js?version=1.1.1.2""></script>
+		<link rel="stylesheet" href="bearworkit/style.css?version=1.1.4">
+		<link rel="stylesheet" href="css/style.css?version=1.1.4">
+		<script src="bearworkit/bundle.js?version=1.1.4""></script>
 		<script src="js/google.js?version=1.1.1.0""></script>
 	</head>
-	<body class="BearFrontBlack BearBackBlack">
-		<div class="Beartainer Col KeepCe KeepMid BearFrontWhite" id="BearLoad">
-			<i class="fa fa-circle-o-notch fa-spin fa-5x fa-fw"></i>
+	<body class="BearFrontBlack Lin">
+		<div id="BearLoad">
+			<transition name="fade">
+				<div v-if="show" class="Beartainer Col KeepCe KeepMid BearFrontWhite">
+					<i class="fa fa-circle-o-notch fa-spin fa-5x fa-fw"></i>
+				</div>
+			</transition>
 		</div>
 		<div id="MagicImageBox">
-			<img src="https://source.unsplash.com/TJ1vdhpIoSs/1600x600" id="MagicImage">
+			<img v-bind:style="{ top: paraTop }" id="MagicImage" src="http://source.unsplash.com/KNUp-YBwBSE/1600x900">
 		</div>
 		<div class="Bearapper">
-			<header id="checkpoint0" class="Beartainer Bear1of1 Col KeepCe KeepMid BearFrontWhite c4">
+			<header class="Beartainer Bear1of1 Col KeepCe KeepMid BearFrontWhite c5">
 				<h1 class="BearM3 BearText Header Size45">Artel Bear</h1>
 			</header>
-			<aside class="Beartainer Bear1of3 Col KeepCe BearFrontWhite c3">
-				<nav class="BearSticky">
-					<h2 id="run0" class="BearT3 BearText Serif Size30">Navigation</h2>
-					<ul class="BearT5 Bear1of1">
-						<li class="BearL8 BearT3"><a id="run1" class="BearText SerifLight Size15"></a></li>
-						<li class="BearL8 BearT3"><a id="run2" class="BearText SerifLight Size15"></a></li>
-						<li class="BearL8 BearT3"><a id="run3" class="BearText SerifLight Size15"></a></li>
-						<li class="BearL8 BearT3"><a id="run4" class="BearText SerifLight Size15"></a></li>
-					</ul>
+			<aside class="Beartainer Bear1of3 BearMob1of1 Col KeepCe BearFrontBlack c3">
+				<nav class="BearSticky Beartainer Col KeepLe height">
+					<h2 class="BearM3 BearText Serif Size30"><i class="fa fa-compass"></i> Navigation</h2>
+					<a href="#" class="BearM2 BearL6 BearText SerifLight Size15">Anchor</a>
+					<a href="#" class="BearM2 BearL6 BearText SerifLight Size15">Anchor</a>
+					<a href="#" class="BearM2 BearL6 BearText SerifLight Size15">Anchor</a>
+					<a href="#" class="BearM2 BearL6 BearText SerifLight Size15">Anchor</a>
 				</nav>
 			</aside>
-			<section class="Beartainer Bear2of3 Col KeepCe BearFrontBlack c2">
+			<section class="Beartainer Bear2of3 BearMob1of1 Col KeepCe BearFrontWhite c4">
 				<article class="BearM10 Beartainer Col KeepCe">
-					<h2 id="checkpoint1" class="BearText Regular Size25">This is BETA-ver!</h2>
+					<img class="BearM5 icon-AB" src="ArtelBear.svg" alt="">
+				</article>
+				<article class="BearM10 Beartainer Col KeepCe">
+					<h2 class="BearM5 BearText Regular Size25">Header2</h2>
 					<p class="BearM5 BearText Light Justify Size15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam hic quis exercitationem excepturi ab totam necessitatibus laboriosam et optio, fugit consequuntur facilis, vero enim mollitia explicabo rerum doloremque autem voluptatibus.</p>
 				</article>
 				<article class="BearM10 Beartainer Col KeepCe">
-					<h2 id="checkpoint2" class="BearText Regular Size25">Eto ne konechnaya versiya sayta</h2>
+					<h2 class="BearM5 BearText Regular Size25">Header3</h2>
 					<p class="BearM5 BearText Light Justify Size15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam hic quis exercitationem excepturi ab totam necessitatibus laboriosam et optio, fugit consequuntur facilis, vero enim mollitia explicabo rerum doloremque autem voluptatibus.</p>
 				</article>
 				<article class="BearM10 Beartainer Col KeepCe">
-					<h2 id="checkpoint3" class="BearText Regular Size25">dsfsd!</h2>
-					<p class="BearM5 BearText Light Justify Size15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam hic quis exercitationem excepturi ab totam necessitatibus laboriosam et optio, fugit consequuntur facilis, vero enim mollitia explicabo rerum doloremque autem voluptatibus.</p>
-				</article>
-				<article class="BearM10 Beartainer Col KeepCe">
-					<h2 id="checkpoint4" class="BearText Regular Size25">sdgewfgewrger!</h2>
+					<h2 class="BearM5 BearText Regular Size25">Header4</h2>
 					<p class="BearM5 BearText Light Justify Size15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam hic quis exercitationem excepturi ab totam necessitatibus laboriosam et optio, fugit consequuntur facilis, vero enim mollitia explicabo rerum doloremque autem voluptatibus.</p>
 				</article>
 			</section>
-			<footer class="Beartainer Bear1of1 Col KeepCe KeepMid BearFrontWhite c4">
+			<footer class="Beartainer Bear1of1 Col KeepCe KeepMid BearFrontWhite c5">
 				<h2 class="BearM5 BearText Serif Size15">Copyright 2017</h2>
 				<h3 class="BearM5 BearB15 BearText HeaderItalic Size20">By Kiselev Nikolay</h3>
 			</footer>
 		</div>
-		<script src="js/main.js"></script>
 	</body>
 </html>

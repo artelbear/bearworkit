@@ -1,19 +1,30 @@
 import "./sass/base.sass";
+import "./sass/mobi.sass";
+import Vue from "./js/vue.js";
 
-window.$ = window.jQuery = require("jquery");
+function vue_oper() {
+	window.scrollTo(0, 0);
 
-$(document).ready(function() {
-	if ($("#BearLoad").length) {
-		// MEOW!!
-	} else {
-		$(".Bearapper").before('<div id="BearLoad"></div>');
-	};
-	$("#MagicImage").on('load', function() {
-		$("#MagicImageBox").css("height", ($("#MagicImage").height() - 5) + "px");
-		$("#BearLoad").animate({height: "0px"}, 2000, function(){$("#BearLoad").remove()});
-		$("#MagicImageBox").animate({"margin-bottom": "-10em"}, 2000);
-		$(window).scroll(function() {
-			$("#MagicImage").css("top", (($(window).scrollTop() / 4) - 5) + "px");
-		});
+	var loader = new Vue ({
+		el: "#BearLoad",
+		data: {
+			show: true
+		}
 	});
-});
+
+	loader.show = false
+	
+	var Parallax = new Vue ({
+		el: "#MagicImage",
+		data: {
+			paraTop: "0px"
+		}
+	});
+
+	window.onscroll = function() {
+		var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+		Parallax.paraTop = (scrolled / 4) + "px"
+	};
+}; // VUE FUN END
+
+window.onload = vue_oper;

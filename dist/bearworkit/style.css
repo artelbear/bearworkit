@@ -1736,8 +1736,9 @@ a {
 #MagicImageBox {
   position: relative;
   width: 100%;
-  z-index: -100;
-  background-color: #000000; }
+  height: 100vh;
+  margin-bottom: -50vh;
+  z-index: -100; }
 
 #MagicImage {
   position: absolute;
@@ -1745,6 +1746,23 @@ a {
   z-index: -100; }
 
 #BearLoad {
-  width: 100%;
-  height: 100vh;
-  background-color: #000000; }
+  position: absolute;
+  z-index: 1000; }
+  #BearLoad div {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000; }
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s; }
+
+.fade-enter, .fade-leave-to {
+  opacity: 0; }
+.Bearapper {
+  margin: 0 10%; }
+
+@media screen and (max-width: 700px) {
+  .Bearapper {
+    margin: 0; }
+  .BearMob1of1 {
+    width: 100%; } }
