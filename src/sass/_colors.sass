@@ -1,11 +1,37 @@
-// Kiselev Nikolay 2017
+$red: #ff3e3e, #9f0000, #c20202, #e50404, #f91515, #f83a3a, #f86060, #f98484
+$dor: #ff683e, #9f2200, #c22b02, #e53404, #f94615, #f8633a, #f88160, #f99d84
+$ora: #ffa03e, #9f5000, #c26302, #e57504, #f98815, #f89a3a, #f8ad60, #f9bf84
+$yel: #ffc13e, #9f6b00, #c28402, #e59c04, #f9af15, #f8bb3a, #f8c760, #f9d384
+$gre: #71b971, #316431, #3d7a3d, #499149, #56a756, #6db36d, #84be84, #9bca9b
+$tea: #4799a2, #234d51, #2c5e63, #357076, #3e8188, #47929a, #51a3ab, #63adb4
+$blu: #458fff, #0040a2, #0250c6, #045fea, #1a73f9, #418af8, #67a1f8, #8cb7f9
+$cya: #4659ff, #0011a2, #0217c7, #041cea, #1b32f9, #4155f8, #6777f8, #8d98f9
+$pur: #802dff, #3c0096, #4a02b7, #5804d8, #6706f8, #7c2af8, #914df7, #a670f7
+$mag: #ff52ff, #a800a9, #ce02ce, #f304f3, #f925f9, #f94df9, #f975f9, #fa9bfa
 
-$namelist: "White", "Black"
-$datalist: #ffffff, #000000
+$all: $red, $dor, $ora, $yel, $gre, $tea, $blu, $cya, $pur, $mag
 
-@each $current in $namelist
-	$i: index($namelist, $current)
-	.BearFront#{$current}
-		color: nth($datalist, $i)
-	.BearBack#{$current}
-		background-color: nth($datalist, $i)
+$names: "Red", "Fire", "Orange", "Yellow", "Green", "Teal", "Azure", "Blue", "Violet", "Pink"
+
+@each $color in $all
+	@for $position from 1 through 8
+		@if $position > 1
+			.#{nth($names, index($all, $color))}#{($position - 1)}
+				&.fill
+					background-color: nth($color, $position)
+					*::selection, *::-moz-selection
+						color: nth($color, $position)
+		@else
+			.#{nth($names, index($all, $color))}
+				&.fill
+					background-color: nth($color, $position)
+					*::selection, *::-moz-selection
+						color: nth($color, $position)
+
+
+@for $part from 0 through 10
+	.Mono#{$part}
+		&.fill
+			color: rgb($part * 255 / 10, $part * 255 / 10, $part * 255 / 10)
+			*::selection, *::-moz-selection
+				background-color: rgb($part * 255 / 10, $part * 255 / 10, $part * 255 / 10)

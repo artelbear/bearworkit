@@ -1,16 +1,9 @@
-// Kiselev Nikolay 2017
-
-@for $i from 0 through 30
-	.BearT#{$i}
-		margin-top: $i * 0.2em
-	.BearL#{$i}
-		margin-left: $i * 0.2em
-	.BearR#{$i}
-		margin-right: $i * 0.2em
-	.BearB#{$i}
-		margin-bottom: $i * 0.2em
-	.BearM#{$i}
-		margin: $i * 0.2em
-
-// margin: top rig bottom left
-// inherit
+@for $i from 0 through 17
+	$directions: "-top", "-bottom", "-left", "-right", ""
+	$names: "Top", "Bottom", "Left", "Right", "Full"
+	@for $d from 1 through length($directions)
+		.#{unquote(nth($names, $d))}
+			&Margin#{$i}
+				margin#{unquote(nth($directions, $d))}: $i / 6 + rem
+			&Padding#{$i}
+				padding#{unquote(nth($directions, $d))}: $i / 6 + rem

@@ -1,29 +1,28 @@
-// Kiselev Nikolay 2017
+@import "fonts"
 
-@import "font.sass"
+html
+	font-size: 100%
 
-$main_size: 0.1em
+$ev: Baner, Bookly
+=margin-notop($margin)
+	margin-right: $margin
+	margin-left: $margin
+	margin-bottom: $margin
 
-.BearText
-	-webkit-font-smoothing: antialiased
-	font-family: "Regular"
-	@for $i from 0 through 228
-		&.Size#{$i}
-			font-size: $i * $main_size
-	
-	$font-list: "Regular", "Light", "Bold", "Italic", "Serif", "SerifLight", "SerifBold", "SerifItalic", "Sans", "SansLight", "SansBold", "SansItalic", "Header", "HeaderBold", "HeaderLight", "HeaderItalic"
-	@each $current in $font-list
-		&.#{$current}
-			font-family: $current
-	
-	&.Justify
+.Baner
+	font-family: 'Intro'
+
+.Bookly
+	font-family: 'Droid Serif'
+
+@each $wat in $ev
+	.#{$wat}
+		padding: 1rem
+	.#{$wat} > p
+		font-size: 1rem
 		text-align: justify
-
-	&.Center
-		text-align: center
-
-	&.Start
-		text-align: left
-
-	&.End
-		text-align: right
+	@for $i from 1 through 6
+		.#{$wat} > h#{$i}
+			font-size: (8 - $i) / 1.3 + rem
+			&.WithDecor
+				+margin-notop((6 - $i) / 3 + rem)

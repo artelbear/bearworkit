@@ -1,96 +1,79 @@
-// Kiselev Nikolay 2017
+////     north
+//// east     west
+////     south
 
-@for $i from 1 through 12
-	@for $j from 1 through 12
-		.Bear#{$i}of#{$j}
-			@if $i <= $j
-				width: $i / $j * 100%
 
-.Bearapper
+
+=navbycompass($dir, $redir)
+	justify-content: $dir
+	align-content: $redir
+	align-items: $redir
+
+=compassme
+	&.Center
+		+navbycompass(center, center)
+	&.West
+		+navbycompass(center, flex-start)
+	&.East
+		+navbycompass(center, flex-end)
+	&.North
+		+navbycompass(flex-start, center)
+		&.West
+			+navbycompass(flex-start, flex-start)
+		&.East
+			+navbycompass(flex-start, flex-end)
+	&.South
+		+navbycompass(flex-end, center)
+		&.West
+			+navbycompass(flex-end, flex-start)
+		&.East
+			+navbycompass(flex-end, flex-end)
+
+.Containy, .Bookly, .Texty, .Baner
 	display: flex
-	flex-direction: row
-	flex-wrap: wrap
-
-.BearSticky
-	position: sticky
-	top: 0
-
-.Beartainer
-	display: flex
-
+	align-items: stretch
 	&.Col
 		flex-direction: column
-		&.KeepCe
-			align-items: center
-		&.KeepLe
-			align-items: flex-start
-		&.KeepRi
-			align-items: flex-end
-		&.KeepSt
-			align-items: stretch
-		&.KeepMid
-			justify-content: center
-		&.KeepTop
-			justify-content: start
-		&.KeepBot
-			justify-content: end
-		&.KeepBet
-			justify-content: space-between
-		&.KeepAro
-			justify-content: space-around
+		+compassme
 	&.Row
 		flex-direction: row
-		&.KeepCe
-			justify-content: center
-		&.KeepLe
-			justify-content: start
-		&.KeepRi
-			justify-content: end
-		&.KeepBe
-			justify-content: space-between
-		&.KeepAr
-			justify-content: space-around
-		&.KeepMid
-			align-items: center
-		&.KeepTop
-			align-items: flex-start
-		&.KeepBot
-			align-items: flex-end
-		&.KeepStr
-			align-items: stretch
+		+compassme
+	@for $j from 1 through 17
+		@for $i from 1 through 17
+			@if $i <= $j
+				&.Width#{$i}of#{$j}
+					width: $i / $j * 100 + vw
+				&.Hei#{$i}of#{$j}
+					height: $i / $j * 100 + vw
+				&.Height#{$i}of#{$j}
+					height: $i / $j * 100 + vh
 
-	&.KeepConteMid
-		align-content: center
-	&.KeepConteTop
-		align-content: flex-start
-	&.KeepConteBot
-		align-content: flex-end
-	&.KeepConteBet
-		align-content: space-between
-	&.KeepConteAro
-		align-content: space-around
-	&.KeepConteStr
-		align-content: stretch
+	$aligns: flex-start, flex-end, center, space-between, space-around, space-evenly
+	$names:  "Start", "End", "Center", "SpaceBetween", "SpaceAround", "SpaceEvenly"
+	@for $i from 1 through length($aligns)
+		&.KeepJustify#{nth($names, $i)}
+			justify-content: nth($aligns, $i)				
 
-	&.Wrap
-		flex-wrap: wrap
+	$aligns: flex-start, flex-end, center, baseline, stretch
+	$names:  "Start", "End", "Center", "Baseline", "Stretch"
+	@for $i from 1 through length($aligns)
+		&.KeepItems#{nth($names, $i)}
+			align-items: nth($aligns, $i)
 
-.Bearitem
-	&.PressXS
-		flex-shrink: 0.25
-	&.PressS
-		flex-shrink: 0.5
-	&.PressM
-		flex-shrink: 1
-	&.PressL
-		flex-shrink: 1.25
-	&.PressXL
-		flex-shrink: 1.5
-	&.PressXXL
-		flex-shrink: 2
+	$aligns: flex-start, flex-end, center, space-between, space-around, stretch
+	$names:  "Start", "End", "Center", "SpaceBetween", "SpaceAround", "Stretch"
+	@for $i from 1 through length($aligns)
+		&.KeepContent#{nth($names, $i)}
+			align-content: nth($aligns, $i)
 
-	@for $i from 1 through 12
-		@for $j from 1 through 12
-			&.FatBear#{$i}of#{$j}
-				@if $i <= $j
-					flex-basis: $i / $j * 100%
+.Wrapper
+	width: 100vw
+	flex-wrap: wrap
+	@extend .Containy.Row
+	@extend .Containy.Width1of1
+
+html, body
+	overflow-x: hidden
+	overflow-y: hidden
+	width: 100vw
+	min-height: 100vh
