@@ -17,21 +17,14 @@ $names: "Red", "Fire", "Orange", "Yellow", "Green", "Teal", "Azure", "Blue", "Vi
 	@for $position from 1 through 8
 		@if $position > 1
 			.#{nth($names, index($all, $color))}#{($position - 1)}
-				&.fill
-					background-color: nth($color, $position)
-					*::selection, *::-moz-selection
-						color: nth($color, $position)
+				background-color: nth($color, $position)
+				+crselection(color, nth($color, $position))
 		@else
 			.#{nth($names, index($all, $color))}
-				&.fill
-					background-color: nth($color, $position)
-					*::selection, *::-moz-selection
-						color: nth($color, $position)
-
+				background-color: nth($color, $position)
+				+crselection(color, nth($color, $position))
 
 @for $part from 0 through 10
 	.Mono#{$part}
-		&.fill
-			color: rgb($part * 255 / 10, $part * 255 / 10, $part * 255 / 10)
-			*::selection, *::-moz-selection
-				background-color: rgb($part * 255 / 10, $part * 255 / 10, $part * 255 / 10)
+		color: rgb($part * 255 / 10, $part * 255 / 10, $part * 255 / 10)
+		+crselection(background-color, rgb($part * 255 / 10, $part * 255 / 10, $part * 255 / 10))

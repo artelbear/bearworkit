@@ -73,6 +73,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sass_base_sass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__sass_base_sass__);
 
 
+console.log("%c Browser: HTML5 rules are satisfied. Erorrs: 0 %s", "color: IndianRed");
+console.log("%c Browser: CSS3 rules are satisfied. Erorrs: 0 %s", "color: LightSeaGreen");
+console.log("%c Browser: JS rules are satisfied. Erorrs: 0 %s", "color: Cornflower");
+
 function start() {};
 
 window.onload = start;

@@ -1,0 +1,10 @@
+$PrefixCollection: "-webkit-", "-khtml-", "-moz-", "-ms-", "-o-", ""
+
+=cr($attr, $data)
+	@each $prefix in $PrefixCollection
+		#{$prefix}#{$attr}: $data
+
+=crselection($attr, $data)
+	@each $prefix in $PrefixCollection
+		&::#{$prefix}selection, ::#{$prefix}selection
+			#{$attr}: $data
