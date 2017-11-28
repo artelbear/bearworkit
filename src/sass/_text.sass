@@ -1,5 +1,15 @@
 @import "fonts"
 
+.Quote
+	quotes:  "\00ab" "\00bb"
+.Quote:before
+	content: open-quote
+.Quote:after
+	content: close-quote
+
+.Dash:before
+	content: "\2014"
+
 html
 	font-size: 100%
 
@@ -14,6 +24,12 @@ $ev: Baner, Bookly
 
 .Bookly
 	font-family: 'Droid Serif'
+	q
+		@extend .Quote
+	q:before
+		@extend .Quote:before
+	q:after
+		@extend .Quote:after
 
 @each $wat in $ev
 	.#{$wat}

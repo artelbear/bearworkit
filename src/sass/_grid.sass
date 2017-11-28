@@ -2,7 +2,15 @@
 //// east     west
 ////     south
 
-
+@for $j from 1 through 17
+	@for $i from 1 through 17
+		@if $i <= $j
+			.Width#{$i}of#{$j}
+				width: $i / $j * 100 + vw
+			.Hei#{$i}of#{$j}
+				height: $i / $j * 100 + vw
+			.Height#{$i}of#{$j}
+				height: $i / $j * 100 + vh
 
 =navbycompass($dir, $redir)
 	justify-content: $dir
@@ -38,15 +46,6 @@
 	&.Row
 		flex-direction: row
 		+compassme
-	@for $j from 1 through 17
-		@for $i from 1 through 17
-			@if $i <= $j
-				&.Width#{$i}of#{$j}
-					width: $i / $j * 100 + vw
-				&.Hei#{$i}of#{$j}
-					height: $i / $j * 100 + vw
-				&.Height#{$i}of#{$j}
-					height: $i / $j * 100 + vh
 
 	$aligns: flex-start, flex-end, center, space-between, space-around, space-evenly
 	$names:  "Start", "End", "Center", "SpaceBetween", "SpaceAround", "SpaceEvenly"
@@ -70,7 +69,7 @@
 	width: 100vw
 	flex-wrap: wrap
 	@extend .Containy.Row
-	@extend .Containy.Width1of1
+	@extend .Width1of1
 
 html, body
 	width: 100vw

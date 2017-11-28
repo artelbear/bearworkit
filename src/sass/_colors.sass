@@ -10,21 +10,30 @@ $pur: #802dff, #3c0096, #4a02b7, #5804d8, #6706f8, #7c2af8, #914df7, #a670f7
 $mag: #ff52ff, #a800a9, #ce02ce, #f304f3, #f925f9, #f94df9, #f975f9, #fa9bfa
 
 $all: $red, $dor, $ora, $yel, $gre, $tea, $blu, $cya, $pur, $mag
-
 $names: "Red", "Fire", "Orange", "Yellow", "Green", "Teal", "Azure", "Blue", "Violet", "Pink"
 
+
 @each $color in $all
-	@for $position from 1 through 8
+	@for $position from 1 through length($color)
+		$finColor: nth($color, $position)
 		@if $position > 1
 			.#{nth($names, index($all, $color))}#{($position - 1)}
-				background-color: nth($color, $position)
-				+crselection(color, nth($color, $position))
+				background-color: $finColor
+				+crselection(color, $finColor)
 		@else
 			.#{nth($names, index($all, $color))}
-				background-color: nth($color, $position)
-				+crselection(color, nth($color, $position))
+				background-color: $finColor
+				+crselection(color, $finColor)
+
+
+@for $amount from 0 through 20
+	.Mono#{$amount}
+		$color: lighten(#000, 5% * $amount)
+		background-color: $color
+		+crselection(color, $color)
+
 
 @for $part from 0 through 10
-	.Mono#{$part}
+	.Text#{$part}
 		color: rgb($part * 255 / 10, $part * 255 / 10, $part * 255 / 10)
 		+crselection(background-color, rgb($part * 255 / 10, $part * 255 / 10, $part * 255 / 10))
