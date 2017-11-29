@@ -1,9 +1,12 @@
+// import style
 import "./sass/base.sass";
+// import user components
+import "./js/firebase.min.js";
+// import indist.start from
+import "./js/start.js";
 
-console.log("%c Browser: HTML5 rules are satisfied. Erorrs: 0 %s", "color: IndianRed");
-console.log("%c Browser: CSS3 rules are satisfied. Erorrs: 0 %s", "color: LightSeaGreen");
-console.log("%c Browser: JS rules are satisfied. Erorrs: 0 %s", "color: Cornflower");
-
-function start() {};
-
-window.onload = start;
+if (indist.start == null) {
+	alert("You dont setup your function Start");
+} else {
+	window.onload = indist.start;
+};

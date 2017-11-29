@@ -2,8 +2,8 @@
 //// east     west
 ////     south
 
-@for $j from 1 through 17
-	@for $i from 1 through 17
+@for $j from 1 through 30
+	@for $i from 1 through 30
 		@if $i <= $j
 			.Width#{$i}of#{$j}
 				width: $i / $j * 100 + vw
@@ -74,3 +74,6 @@
 html, body
 	width: 100vw
 	min-height: 100vh
+
+.Wrap
+	flex-wrap: wrap
